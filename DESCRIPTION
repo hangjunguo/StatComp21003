@@ -1,0 +1,13 @@
+Package: WAP
+Type: Package
+Title: Weighted Adaptive Projection
+Version: 1.0
+Date: 2021-5-18
+Author: Hangjun Guo
+Maintainer: Hangjun Guo <guohangjun@cqu.edu.cn>
+Description: Weighted adaptive projection (WAP) algorithm for parameter estimation in high dimensional logistic regression model. WAP reduces the amount of data required while guarantees parameter estimation accuracy by delicately distinguishing between identifiable and weak features.
+License: GPL (>= 2)
+Imports: Rcpp, microbenchmark, knitr, rmarkdown, stats, ggplot2, MASS, bootstrap, boot, glmnet, ncpen, SIS, VariableScreening, bestglm, hdi, scalreg
+LinkingTo: Rcpp
+RoxygenNote: 7.1.2
+Encoding: UTF-8
